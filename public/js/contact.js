@@ -1,8 +1,4 @@
 
-// window.onload = function () {
-// 	var button = document.querySelector("#contactBtn");
-// 	button.addEventListener("click", contact);
-// }
 
 function contact() {
 	var fullName = document.querySelector("#fullName").value;
@@ -53,53 +49,4 @@ function contact() {
 	} else{
 		return false;
 	}
-
-// 		fullNameError.textContent = "";
-// 		emailError.textContent = "";
-// 		contentError.textContent = "";
-		
-// 		$.ajax({
-// 			url: "index.php?page=contactUpis",
-// 			method: "POST",
-// 			dataType: "json",
-// 			data: {
-// 				contactBtn: "send",
-// 				fullName, email, content
-// 			},
-// 			success: function (data) {
-// 				console.log(data);
-// 				document.querySelector("#fullName").value = "";
-// 				document.querySelector("#email").value = "";
-// 				document.querySelector("#message").value = "";
-
-// 				var msgAlert = document.querySelector('#successMsg');
-// 				var message = document.querySelector('#msg');
-
-// 				msgAlert.classList.remove('invisible');
-// 				msgAlert.classList.add('alert-success');
-// 				message.textContent = data;
-// 				setTimeout(function() {
-// 					msgAlert.classList.add('invisible')	
-// 				} , 1500);
-// 			},
-// 			error: function (xhr, status, err) {
-// 				var msgAlert = document.querySelector('#successMessage');
-// 				var message = document.querySelector('#msg');
-// 				switch (xhr.status) {
-// 					case 409:
-// 						msgAlert.classList.remove('invisible');
-// 						msgAlert.classList.add('alert-warning');
-// 						message.textContent = 'Email nije dostupan!';
-// 						break;
-// 					case 422:
-// 						msgAlert.classList.remove('invisible');
-// 						msgAlert.classList.add('alert-warning');
-// 						message.textContent = 'Greške';
-// 						break;
-// 				}
-// 			}
-// 		})
-// 	} else {
-// 		console.log("Ima gresaka");
-// 	}
 }
