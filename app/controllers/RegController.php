@@ -93,12 +93,6 @@ class RegController extends Controller {
 
    
 
-
-
-
-
-
-
     public function register(){
 
         $menu = $this->linkMenu($this->conn);
@@ -107,18 +101,6 @@ class RegController extends Controller {
         $modelRegister = new Register($this->conn);
         $gender = $modelRegister->getGender();
 
-         $this->view("register", ["menu" => $menu, "networks" => $networks, "gender" => $gender]);
-        
-        
-         
+         $this->view("register", ["menu" => $menu, "networks" => $networks, "gender" => $gender]);   
     }
-
-
-
-
-
-
-
-
-
 }
