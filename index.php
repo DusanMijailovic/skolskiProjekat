@@ -200,36 +200,6 @@ if(isset($_GET["page"])){
 
 
 
-/* if (isset($_GET['page'])) {
-	$page = $_GET['page'];
-}
-
-switch ($page) {
-	case 'home':
-	require_once "app/views/pages/home.php";
-	break;
-	case 'product':
-	require_once "app/views/pages/product.php";
-	break;
-	case 'contact':
-	require_once "app/views/pages/contact.php";
-	break;
-	case 'about':
-	require_once "app/views/pages/about.php";
-	break;
-	case 'login':
-	require_once "app/views/pages/login.php";
-	break;
-	case 'register':
-	require_once "app/views/pages/register.php";
-	break;
-	default:
-	require_once "app/views/pages/home.php";
-	break;
-}
-
-require_once "app/views/footer.php"; */
-
 
 
 
