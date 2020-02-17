@@ -20,7 +20,4 @@ class MenuAdminController extends Controller {
 
         $this->viewAdmin("menuAdmin", ["menu" => $menu]);
     }
-
-
-
 }
