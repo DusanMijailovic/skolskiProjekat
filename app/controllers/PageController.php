@@ -39,10 +39,6 @@ class PageController extends Controller {
         } else {
             $this->view("home", ["books" => $books, "categories" => $categories, "menu" => $menu, "networks" => $networks]);
         }
-            
-        
-        
-
     }
 
 
@@ -73,20 +69,5 @@ class PageController extends Controller {
         }
         
         $this->json($books);
-
-
-        
-    
     }
-
-
-
-
-
-
-
-
-
-
-
 }
