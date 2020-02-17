@@ -467,32 +467,6 @@ function refreshBook(){
 
 
 
-// $(document).on('click', '.update-book', function(e){
-//     e.preventDefault();
-    
-
-//     let bookID = $(this).data('id');
-
-    
-
-//     $.ajax({
-//         url: 'index.php?page=getOnebook', 
-//         method: 'POST',
-//         dataType: 'json', 
-//         data: {
-//             btn: true,
-//             bookID: bookID
-//         },
-//         success: function(data){
-
-//             fillForm(data);
-//         }, 
-//         error: function(xhr, status, statusText){
-//             console.error('----> ERROR <----');
-//             console.log(statusText);
-//         }
-//     })
-// });
 
 
 
