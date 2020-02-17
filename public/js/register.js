@@ -81,10 +81,6 @@ if (selectedGender === "") {
 		passwordError.textContent = "";
 		confirmPassError.textContent = "";
 		genderError.textContent = "";
-	// 	return true;
-	// } else {
-	// 	return false;
-	// }
 
 		$.ajax({
 			url: "index.php?page=reg",
