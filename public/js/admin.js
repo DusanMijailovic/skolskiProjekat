@@ -305,7 +305,7 @@ $(document).on("click", ".insert-book", function(e){
             imgAlt: imgAlt
         },
         success: function(data){
-            clearForm();
+            clearFormBook();
 
             refreshBook();
 
